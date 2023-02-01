@@ -1,0 +1,57 @@
+header {
+    text-align: center; 
+}
+span{
+    color: rgb(20, 131, 118);
+    font-weight: bold;
+}
+h4{
+    color: rgb(20,131,118);
+}
+ 
+#Linea {
+    border-bottom-color: yellow;
+ }
+
+ #foto {
+   width: 200px;
+   height: auto;
+ }
+
+ main{
+    align-content:center;
+    width: 450px;
+    margin: 0 auto;
+ }
+
+ .pizza{
+    width: 450px;
+    height: auto;
+ }
+
+ .autore{
+    text-align: center;
+    color:gray;
+ }
+
+ .colore-rosso{
+    color: red;
+    border-left:solid yellow ;padding: left;
+ }
+
+ .line{
+    border-color: aqua;
+ }
+
+ .riga{
+   border-color: aqua;
+ }
+
+ .nero{
+    font-weight: bold;
+ }
+
+ p{
+    font-size: small;
+    color: black;
+ }
