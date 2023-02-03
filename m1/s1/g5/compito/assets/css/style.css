@@ -88,7 +88,7 @@ p {
 }
 
 .box {
-  border: solid 3px #dee1e3;
+  border-bottom: solid 1px #dee1e3;
 }
 
 .posizione {
