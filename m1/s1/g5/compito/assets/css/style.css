@@ -1,41 +1,41 @@
 /* Your styles here */
 /* font body */
-body{
-    font-family: 'Open Sans', sans-serif;
-    color: #393d41;
-    line-height: 1.65;
-    font-size: 1.2rem
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  line-height: 1.65;
+  font-size: 1.2rem;
 }
 
-.heading{
-    font-family: 'Montserrat', sans-serif;
-    color: #25a2c3;
-    line-height: 1.5;
-    font-size: 2rem;
-    text-align: center;
+.heading {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1.5;
+  font-size: 2rem;
+  text-align: center;
 }
 
-/* header css */ 
+/* header css */
 
-header{
-    text-align: center;
-    background-color: black;
-    width: 100%;
-   margin: 0 auto;
-   background-size: cover;
+header {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
 }
 
-#ridimensionamento{
-    width: 30%;
-    margin: 0 auto;
-} 
+#ridimensionamento {
+  width: 30%;
+  margin: 0 auto;
+}
 
 /* Contenuto Main */
-.background{
-    text-align: center;
-    padding-top: 100px;
-    background-image: url(../images/banner.jpg);
-    background-color: #cccccc;
+.background {
+  text-align: center;
+  padding-top: 100px;
+  background-image: url(../images/banner.jpg);
+  background-color: #cccccc;
   height: 380px;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,79 +43,80 @@ header{
   position: relative;
 }
 
-.rettangolino{
-border: 2px solid #f04c2f;
-font-family: 'Montserrat', sans-serif;
-background-color: #f04c2f;
-border-radius: 5%;
-
+.rettangolino {
+  border: 2px solid #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f04c2f;
+  border-radius: 5%;
 }
 
- h3{
-    font-family: 'Montserrat', sans-serif;
-    color: #25a2c3;
-    line-height: 1.5;
-    text-align: center;
- }
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1.5;
+  text-align: center;
+}
 
- h2{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    line-height: 1.5;
-    text-align: center;
- }
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+}
 
- p{
-    padding: 10px 30px 15px;
-    text-align: center;
- }
- 
- .radius{
-    padding: 10px 30px 15px;
-    border-radius: 100%;
- }
+p {
+  padding: 10px 30px 15px;
+  text-align: center;
+}
 
- .container{
-    border: solid #e22d0e;
-    background-color: #e22d0e;
-    margin: 0 auto;
-    width: 100%;
-    color: white;
-    }
+.radius {
+  padding: 10px 30px 15px;
+  border-radius: 100%;
+}
 
-    .dim-img{
-       width: 300px;
-       padding: 20px 100px 10px;
-    }
+.container {
+  border: solid #e22d0e;
+  background-color: #e22d0e;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+}
 
-    .box{
-        border: solid 3px #dee1e3
-    }
+.dim-img {
+  width: 300px;
+  padding: 20px 100px 10px;
+}
 
-    .posizione{
-        text-align: center;
-    }
+.box {
+  border: solid 3px #dee1e3;
+}
 
-    footer {
-         background-color: #25a2c3;
-    }
-    
-    footer h2 {
-        color: white;
-    }
-    
-    footer a {
-        color: #c8e7f0;
-    }
+.posizione {
+  text-align: center;
+}
 
-    footer address{
-        color: #c8e7f0;
-    }
-    
-    footer p{
-        color: #c8e7f0;
-    }
+footer {
+  background-color: #25a2c3;
+}
 
-    a, a:visited, a:active{
-        color: white;
-    }
+footer h2 {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer address {
+  color: #c8e7f0;
+}
+
+footer p {
+  color: #c8e7f0;
+}
+
+a,
+a:visited,
+a:active {
+  color: white;
+}
