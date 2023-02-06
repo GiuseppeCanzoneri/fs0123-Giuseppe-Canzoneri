@@ -31,7 +31,7 @@ header {
 }
 
 /* Contenuto Main */
-.background {
+/* .background {
   text-align: center;
   padding-top: 100px;
   background-image: url(../images/banner.jpg);
@@ -41,13 +41,23 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} */
+
+
+.background{
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+} 
 
 .rettangolino {
+  text-decoration: none;
   border: 2px solid #f04c2f;
   font-family: "Montserrat", sans-serif;
   background-color: #f04c2f;
   border-radius: 5%;
+  color: white;
+  padding: 5px 15px ;
+  font-size: 1rem;
 }
 
 h3 {
@@ -113,10 +123,4 @@ footer address {
 
 footer p {
   color: #c8e7f0;
-}
-
-a,
-a:visited,
-a:active {
-  color: white;
 }
