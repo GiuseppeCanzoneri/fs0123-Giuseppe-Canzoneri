@@ -21,8 +21,8 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// const NAME = "Giuseppe";
-// console.log(NAME);
+// let name = "Giuseppe";
+// console.log(name);
 
 
 /* ESERCIZIO 3
@@ -50,7 +50,11 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// NAME = "Canzoneri";
+// const NAME= "Canzoneri";
+// name = "Canzoneri";
+// console.log(NAME);
+
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -86,4 +90,95 @@ REGOLE
 
 // let risultato = (name1.toLowerCase != name2.toLowerCase) ? "Le due parole sono differenti!" : "Le due parole sono identiche";
 // console.log(risultato);
+
+// let risultato = (name1 != name2) ? "DIVERSE!" : "identiche!";
+
+// document.getElementById("risposta").innerHTML = `Le due variabili sono ${risultato}`
+
+
+// ISTRUZUIONI CONDIZIONALI
+
+// IF, ELSE IF...
+// if (eta < 18) {
+//   console.log("sei minorenne");
+// } else if (eta >= 18 && eta <= 70) {
+//   console.log("sei grande");
+// } else {
+//   console.log("sei vecchio");
+// } 
+
+// SWITCH
+// let color = "pink";
+// switch(color) {
+//   case "red":
+//     console.log("il colore che hai scelto e il rosso");
+//     break;
+//   case "blue":
+//     console.log("il colore che hai scelto e il blu");
+//     break;
+//   case "yellow":
+//     console.log("il colore che hai scelto e il giallo");
+//     break;
+//   case "green":
+//     console.log("il colore che hai scelto e il verde");
+//     break;
+//   default:
+//     console.log("non hai selezionato alcun colore tra quelli disponibili!");
+// }
+
+// CICLI
+
+// CICLO FOR
+// for(let indice = 1; indice <= 10; indice++) {
+//   console.log(`hai digitato il numero ${indice}`);
+// }
+
+// DIFFERENZE TRA VARI CICLI FOR
+// let numeri = [1,5,9,45,789,55];
+// console.log(numeri.length);
+
+// CICLO "FOR"
+// for (let indice = 0; indice < numeri.length; indice++) {
+//   console.log(numeri[indice]);
+// }
+
+// CICLO "FOR IN"
+// for (let indice in numeri) {
+//   console.log(numeri[indice]);
+// }
+
+// CICLO "FOR OF"
+// for (let indice of numeri) {
+//   console.log(indice);
+// }
+
+// DIFFERENZE TRA CICLO "DO" E CICLO "DO WHILE"
+// let indice3 = 1;
+
+// while (indice3 < 1) {
+//   console.log(indice3);
+//   indice3++;
+// }
+
+// do { 
+//   console.log(indice3);  //1 e stampa
+//   indice3++;             //2
+//  } while (indice3 < 1);  //2
+
+
+// FUNZIONI
+function possoEntrare () {
+  let eta = prompt("Per favore inserisci la tua età");
+  if (eta < 18) {
+    document.getElementById("risposta").innerHTML = "Aspetta tra qualche anno";
+    console.log("Aspetta tra qualche anno");
+  } else if (eta >= 18 && eta <= 100) {
+    document.getElementById("risposta").innerHTML = "Puoi entrare";
+    console.log("Puoi entrare");
+  } else {
+  document.getElementById("risposta").innerHTML = "sarebbe meglio che rimanessi a casa!";
+  console.log("sarebbe meglio che rimanessi a casa!");
+  }
+}
+
 
