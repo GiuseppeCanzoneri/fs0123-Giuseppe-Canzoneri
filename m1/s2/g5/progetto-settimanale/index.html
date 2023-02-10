@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Calcolatrice in javascript"/>
+    <title>La mia prima calcolatrice</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+      
+    
+    <h1 id="title">La mia prima Calcolatrice in javascript </h1>
+    
+<div class="calculator">
+
+    <input type="text" id="display">
+
+<div class="calculator-keys">
+ 
+
+      <button data-simbolo="1"onclick="aggiungiSimbolo(this)">1</button>
+      <button data-simbolo="2"onclick="aggiungiSimbolo(this)">2</button>
+      <button data-simbolo="3"onclick="aggiungiSimbolo(this)">3</button>
+      <button data-simbolo="4"onclick="aggiungiSimbolo(this)">4</button>
+      <button data-simbolo="5"onclick="aggiungiSimbolo(this)">5</button>
+      <button data-simbolo="6"onclick="aggiungiSimbolo(this)">6</button>
+      <button data-simbolo="7"onclick="aggiungiSimbolo(this)">7</button>
+      <button data-simbolo="8"onclick="aggiungiSimbolo(this)">8</button>
+      <button data-simbolo="9"onclick="aggiungiSimbolo(this)">9</button>
+      <button data-simbolo="0"onclick="aggiungiSimbolo(this)">0</button>
+      <button data-simbolo="."onclick="aggiungiSimbolo(this)">.</button>
+     
+      <button data-simbolo="/"onclick="aggiungiSimbolo(this)" class="operatore">÷</button>
+      <button data-simbolo="*"onclick="aggiungiSimbolo(this)" class="operatore">x</button>
+      <button data-simbolo="-"onclick="aggiungiSimbolo(this)" class="operatore">-</button>
+      <button data-simbolo="+"onclick="aggiungiSimbolo(this)" class="operatore">+</button>
+
+      
+      <button onclick="cancella()" class="clear">AC</button>
+      <button onclick="totale()" class="segno-uguale">=</button>
+
+    </div>
+</div>
+    
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
