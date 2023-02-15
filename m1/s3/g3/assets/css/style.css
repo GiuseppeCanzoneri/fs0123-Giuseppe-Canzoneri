@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+	margin: 0;
+	padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1598791318878-10e76d178023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+   background-image: url(https://azassistentevirtuale.it/wp-content/uploads/2018/12/To-Do-List.png);
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+    color: #4CAF50;
+}
+
+.input-container {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	flex-grow: 1;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+	font-size: 16px;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+li.completed {
+	text-decoration: line-through;
+	color: #999;
+}
+
+li button {
+	background-color: #f44336;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
